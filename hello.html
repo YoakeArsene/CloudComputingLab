@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Welcome to JavaScript for Cloud app!</title>
+</head>
+<body>
+      <a href="home.html" onmouseover="alert('Click to go home')">Home</a><br ><hr />
+
+      <p>Example for event handling</p>
+
+      <button onclick="document.getElementById('myImage').src='src/hello.png'">Say hello</button>
+      <img id="myImage" src="src/logo.png" style="width: 200px" alt="">
+      <button onclick="document.getElementById('myImage').src='src/goodbye.jpg'">Say goodbye</button>
+      <br/>
+
+      <script>
+        document.write("Hello Cloud Computing class! <br/>");
+        console.log("Message for Console!!!");
+        alert("Begin at the beginning!!");
+
+        var your_name;
+        your_name = prompt("Enter your name: ");
+        document.write("Hi " + your_name);
+      </script>
+</body>
+</html>
