@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Welcome to JavaScript for Cloud app!</title>
+</head>
+<body>
+<a href="home.html" onmouseover="alert('Click to go home')">Home</a><br ><hr />
+<p>Example for loop</p>
+<br/>
+
+<p id="paragraph"> The text will be replaced </p>
+
+<script>
+    document.write("Testing for loop, 1-5 counting: <br/>");
+    let text = "";
+    for (let i = 0; i <= 5; i++)
+    {
+        text += "Loop number: " + i + "<br/>";
+    }
+    document.getElementById('paragraph').innerHTML = text;
+</script>
+</body>
+</html>
